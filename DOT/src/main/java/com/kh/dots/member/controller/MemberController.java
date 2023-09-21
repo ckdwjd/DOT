@@ -482,9 +482,13 @@ public class MemberController {
 		String to_email = email;
 		Member m = new Member();
 		m.setUserId(userId);
+		log.info("m={}",m);
 		int result = mService.loginPwdReset(m);
+		
+		log.info("result={}",result);
 		if(result>0) {
 			Member m2 = mService.logincheck(m);
+			log.info("m2={}",m2);
 			String AuthenticationKey = m2.getUserPwd();
 			String title = "안녕하세요 DOT 비밀번호 메일입니다.";
 			String content = "비밀번호는 : 1234" ;

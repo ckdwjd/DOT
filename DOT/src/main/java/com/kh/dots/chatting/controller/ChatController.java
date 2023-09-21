@@ -420,12 +420,12 @@ public class ChatController {
 	    // 시간 차이가 24시간 미만이면 "몇시간 전"으로 반환합니다.
 	    else if (duration.toHours() < 24) {
 	        long hoursDifference = duration.toHours();
-	        return hoursDifference + "시간 전";
+	        return hoursDifference - 2 + "시간 전";
 	    }
 	    // 그 외의 경우 "며칠 전"으로 반환합니다.
 	    else {
 	        long daysDifference = duration.toDays();
-	        return daysDifference + 1 + "일 전";
+	        return daysDifference + "일 전";
 	    }
 	}
 

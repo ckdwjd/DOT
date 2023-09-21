@@ -270,8 +270,6 @@ prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%> -->
             });
             
             $("#sendPwd").click(()=>{
-            	$('#checkId').val("");
-            	$('#email').val("");
             	$('#emailCode').val("");
             	$('#emailCode').attr("readonly",true);
             	$('#sendPwd').attr("disabled",true);
