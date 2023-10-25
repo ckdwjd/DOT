@@ -35,12 +35,13 @@
 <br><br>
 <h2>구현 내용</h2>
 <div>
-  <h4>1. 메인 페이지</h4>
-  <img src="7HTHETOWN Git Img/Main.png" width="600"/>
+  <h4>1. 소개 페이지(페이지 로딩 시)</h4>
+  <img src="DOT Img/Untitled.png" width="600"/>
   <p>
     <h4>구현기능설명</h4>
     메인 페이지 부분 사용자가 스크를을 내렸을 때 해당 컨텐츠와 만나게 되면 애니메이션 효과를 구현
     (단, 이미 효과가 구현된 컨텐츠는 작동하지 않는다.)
   </p>
   <br>
+  
 </div>
